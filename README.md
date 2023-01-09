@@ -1,4 +1,4 @@
-# MIQRO MQTT SMS Service for Teltoniks RUT Devices
+# MIQRO MQTT SMS Service for Teltonika RUT Devices
 
 MQTT service based on the miqro library.
 

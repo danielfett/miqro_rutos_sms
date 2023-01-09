@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "miqro-rutos-sms"
-version = "0.1.0"
+version = "0.1.1"
 description = ""
 authors = ["Daniel Fett <fett@danielfett.de>"]
 readme = "README.md"
@@ -15,3 +15,7 @@ requests = "^2.28.1"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+miqro_rutos_sms = { callable = "miqro_rutos_sms:service.run" }
