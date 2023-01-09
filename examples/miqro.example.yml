@@ -1,0 +1,26 @@
+############################################################
+##                                                        ##
+## Example configuration file for miqro_alarm             ##
+##                                                        ##
+## Move this file to /etc/miqro.yml to use!               ##
+##                                                        ##
+############################################################
+
+# Define the connection to the MQTT broker
+broker:
+  host: localhost
+  port: 1883
+  keepalive: 60
+
+# Log Level
+log_level: DEBUG
+
+# Now the MIQRO services
+services:    
+  rutos_sms:
+    username: smsuser
+    password: jcpHmfTQAZr5L6B
+    host: 192.168.1.1
+    port: 80
+    delete_after:
+      days: 1
